@@ -1,4 +1,6 @@
 #https://docs.docker.com/reference/dockerfile/
-FROM   centos:7   # Get OS
+#download centos 7
+FROM   centos:7   
+# install telnet
 RUN    yum install telnet -
     
